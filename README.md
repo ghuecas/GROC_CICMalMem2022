@@ -1,5 +1,5 @@
 # GROC_CICMalMem2022
-Practica de la asignatura GRPC 21/22, sobre generación de un modelo de ML usando SciKit-Learn con el dataset CICMalMem2022
+Practica de la asignatura GROC 21/22, sobre generación de un modelo de ML usando SciKit-Learn con el dataset CICMalMem2022
 
 Based on Charanpal Dhanjal work https://gist.github.com/charanpald/c216800e25480ee838e8
 
