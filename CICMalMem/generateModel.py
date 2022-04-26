@@ -27,7 +27,7 @@ print ("Transforming data")
 # Column 1 has specific malware name, ignore it
 # Last column has malware class (Benign, Spyware, Ransomware, Trojan)
 # Last but one column has the malware type (Benign, Spyware, Ransomware, Trojan)
-# separate features (columns 1..40) and label (column 0)
+# separate features (columns 1..last but one) (last column)
 labels= raw_data.iloc[:,raw_data.shape[1]-1:]
 features= raw_data.iloc[:,1:raw_data.shape[1]-2]
 print("labels:", raw_data[raw_data.shape[1]-1].unique(),"\n")
