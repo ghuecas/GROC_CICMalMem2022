@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 # Must declare data_dir as the directory of training and test files
 #data_dir="./datasets/CIC/"
 data_dir="../"
-#raw_data_filename = data_dir + "Obfuscated-MalMem2022.csv"
+#raw_data_filename = data_dir + "Obfuscated-MalMem2022_labeled.csv"
 raw_data_filename = data_dir + "Obfuscated-MalMem2022_labeled.10_percent.csv"
 
 print ("Loading raw data")
